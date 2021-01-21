@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(12, 100%, 82%);
+
+}
+.container{
+    width: 500px;
+    border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+    box-shadow: -3px -3px 7px #ffffffa6, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+.data{
+   height: 70px;
+   width: 100%; 
+   background-color: hsl(21, 100%, 85%);
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+ align-items: center;
+ position: relative;
+   padding: 0 10px;
+}
+i{
+    font-size: 3rem;
+    padding: 0 10px;
+}
+ .fa-angle-left{
+    position: absolute;
+    left: 0;
+    ;
+}
+.fa-angle-right{
+    position: absolute;
+    right: 0;
+}
+h3{
+    font-size: 2rem;
+}
+h5{
+    font-size: 1.3rem;
+}
+.Week{
+    height: 70px;
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+}
+.daysWeek{
+   font-size: 1.4rem;
+ 
+}
+.grid-days {
+    width: auto;
+    height: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1px;
+  
+
+}
+
+
+
+ .days,.daysWeek,.days--przed,.days--po {
+  font-size: 1.5rem;
+      width: 70px;
+    height: 70px;
+    background-color: hsl(12, 100%, 82%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.active{
+    background-color: turquoise;
+}
