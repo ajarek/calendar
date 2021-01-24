@@ -110,13 +110,13 @@ h5{
 }
 @media (max-width:400px){
     .days,.days--przed,.days--po {
-        font-size: 0.8rem;
-            width: 2rem;
-          height: 2rem;
+        font-size: 1rem;
+            width: 2.5rem;
+          height: 2.5rem;
          
       }
       .daysWeek{
-         font-size: 0.8rem;
+         font-size: 1rem;
          }
     i{
         font-size: 1.5rem;
